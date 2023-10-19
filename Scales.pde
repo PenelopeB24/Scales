@@ -60,8 +60,8 @@ void draw_shape(float x, float y) {
  //triangle(x+wid*25/70, y+hgt*25/70, x-wid*25/70, y+hgt*25/70, x+wid/70, y-hgt*50/70); 
   triangle(x+wid*25/70, y+hgt*25/70, x-wid*25/70, y+hgt*25/70, x+wid/70, y-hgt*50/70); 
   ellipse(x, y+50, wid, hgt);
-    triangle(x+wid*25/70+off, y+hgt*25/70+off, x-wid*25/70+off, y+hgt*25/70+off, x+wid/70+off, y-hgt*50/70+off); 
-    ellipse(x+50, y, wid, hgt);
+  triangle(x+wid*25/70+off, y+hgt*25/70+off, x-wid*25/70+off, y+hgt*25/70+off, x+wid/70+off, y-hgt*50/70+off); 
+  ellipse(x+50, y, wid, hgt);
    
 }
 
